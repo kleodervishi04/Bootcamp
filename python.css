@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(40, 85, 125);
+    /* padding: 15px; */
+    position: relative;
+  }
+
+
+  .pythonlogo{
+    width: 250px;
+    height: 80px;
+  }
+  
+  .site-headline{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 30px;
+}
+  
+.searchspace {
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    padding-left: 10px;
+} 
+
+.searchspace input {
+    flex: 1;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+    
+.searchspace button {
+    background-image: linear-gradient(to bottom , rgb(69, 68, 68), grey);
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 30px;
+}
+
+.searchspace img{
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+
+
+.navlist{
+    padding: 10px 0;
+   background-color: white;
+   width: 100%;
+   height: 40px;
+   align-items: center;
+   overflow: auto;
+}
+
+.navlist img{
+    width: auto;
+    height: auto;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.row{
+    padding: 5% 20%;
+    border: 2px solid grey;
+    margin: 0px 50px;
+    background-color: rgb(219, 219, 219);
+}
+
+.row-title{
+    display: flex;
+    align-items: center;
+
+}
+
+.get-started{
+    flex: 1;
+    margin-right: 30px;
+    
+}
+
+.content{
+    padding-top: 10px;
+}
+
+.about{
+    margin-bottom:10px ;
+}
+
+.footer-links{
+    padding-top: 20px ;
+}
+
+
+
+
+
+  .d-flex{
+    display: flex;
+  }
+
+  .align-center{
+    align-items: center;
+  }
+
+  .justify-around{
+    justify-content: space-around;
+  }
+
+  .margin-right {
+    margin-right: 15px;
+  }
+
+  .margin-left{
+    margin-left: 10px;
+  }
+
+  .margin-top{
+    margin-top: 10px;
+  }
+
+  .padding-top{
+    padding-top: 10px;
+  }
